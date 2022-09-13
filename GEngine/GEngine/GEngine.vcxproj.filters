@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{03c80b30-718a-4555-a3e9-75d9bce5e0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlFramework">
+      <UniqueIdentifier>{ea1a57f7-5f0a-4b55-9aef-8835dcea118a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Vulkan">
+      <UniqueIdentifier>{d9c43105-9088-490e-b83a-44f34e6efc93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryP.cpp" />
+    <ClCompile Include="imgui_wrapper.cpp" />
+    <ClCompile Include="GLAPITrace.cpp" />
+    <ClCompile Include="GLFramework\GLShader.cpp">
+      <Filter>GlFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\UtilsCubemap.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Vulkan\UtilsVulkan.cpp">
+      <Filter>Utils\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="volk.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\image.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GL.h" />
+    <ClInclude Include="GLAPI.h" />
+    <ClInclude Include="GLAPITrace.h" />
+    <ClInclude Include="GLFramework\GLShader.h">
+      <Filter>GlFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\debug.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\UtilsCubemap.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\UtilsMath.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Bitmap.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Vulkan\UtilsVulkan.h">
+      <Filter>Utils\Vulkan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
