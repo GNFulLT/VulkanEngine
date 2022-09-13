@@ -68,5 +68,8 @@
     <ClInclude Include="Utils\Vulkan\UtilsVulkan.h">
       <Filter>Utils\Vulkan</Filter>
     </ClInclude>
+    <ClInclude Include="Utils\glslang_wrapper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

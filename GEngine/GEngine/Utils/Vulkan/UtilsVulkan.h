@@ -6,7 +6,7 @@
 #include <vector>
 
 #include <vulkan/vulkan.h>
-#include <glslang/glslang_c_interface.h>
+#include "Utils/glslang_wrapper.h"
 
 
 
